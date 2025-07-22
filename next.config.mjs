@@ -4,6 +4,8 @@ const nextConfig = {
   basePath: "/roleradar-landing",
   assetPrefix: "/roleradar-landing/",
   trailingSlash: true,
+
+  images: { unoptimized: true },
 };
 
 export default nextConfig;
