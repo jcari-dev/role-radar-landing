@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && gh-pages -d out --dotfiles"
+    "deploy": "next build && next export && gh-pages -d out -c www.roleradar.net"
   },
   "dependencies": {
     "@headlessui/react": "^2.1.8",
