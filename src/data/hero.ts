@@ -1,5 +1,8 @@
 export const heroDetails = {
-    heading: 'Smart, Secure, Simple Financial Management',
-    subheading: 'From effortless budgeting to real-time investment insights, Finwise puts you in control of your money like never before',
-    centerImageSrc: '/roleradar-landing/images/hero-mockup.webp',
-}
+  headingLine1: 'Smart, Simple Job Search.',
+  headingLine2: 'Find Your Next Role Faster',
+  subheading:
+    'Built to help, not spam. RoleRadar uses official job‑board APIs to remain compliant and show real openings you care about, keeping your search on track.',
+      centerImageSrc: '/roleradar-landing/images/hero-mockup.webp',
+
+};
