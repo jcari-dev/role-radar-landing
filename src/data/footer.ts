@@ -7,7 +7,7 @@ export const footerDetails: {
     telephone: string;
     socials: ISocials;
 } = {
-    subheading: "Empowering businesses with cutting-edge financial technology solutions.",
+    subheading: "Empowering job seekers with fast, focused tools to take control of their search.",
     quickLinks: [
         {
             text: "Features",
