@@ -27,8 +27,12 @@ const Hero: React.FC = () => {
         </h1>
 
         {/* sub‑headline */}
-        <p className="mt-4 max-w-2xl mx-auto text-foreground">
-          {heroDetails.subheading}
+        <p className="mt-4 max-w-2xl mx-auto text-foreground whitespace-pre-line">
+          {heroDetails.subheading.split("\n").map((line, i) => (
+            <span key={i} className={i ? "block" : undefined}>
+              {line}
+            </span>
+          ))}
         </p>
 
         {/* single Windows download button */}
