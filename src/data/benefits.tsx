@@ -1,72 +1,111 @@
-import { FiBarChart2, FiBriefcase, FiDollarSign, FiLock, FiPieChart, FiShield, FiTarget, FiTrendingUp, FiUser } from "react-icons/fi";
+import {
+  FiBarChart2,
+  FiBell,
+  FiBriefcase,
+  FiCloudOff,
+  FiDatabase,
+  FiFilter,
+  FiLock,
+  FiPieChart,
+  FiShield,
+  FiTarget,
+  FiTrendingUp,
+  FiUser
+} from "react-icons/fi";
 
-import { IBenefit } from "@/types"
+import { IBenefit } from "@/types";
 
 export const benefits: IBenefit[] = [
-    {
-        title: "Smart Budgeting",
-        description: "Take the guesswork out of managing your money. Our AI-powered budgeting tool adapts to your lifestyle and helps you stay on track.",
-        bullets: [
-            {
-                title: "Intelligent Categorization",
-                description: "Automatically sorts your transactions for crystal-clear insights.",
-                icon: <FiBarChart2 size={26} />
-            },
-            {
-                title: "Customizable Goals",
-                description: "Set and track financial objectives that matter to you.",
-                icon: <FiTarget size={26} />
-            },
-            {
-                title: "Predictive Analysis",
-                description: "Get ahead of your finances with spending forecasts and alerts.",
-                icon: <FiTrendingUp size={26} />
-            }
-        ],
-        imageSrc: "/roleradar-landing/images/mockup-1.webp"
-    },
-    {
-        title: "Seamless Investing",
-        description: "Start building wealth today, no financial degree required. Finwise makes investing accessible and straightforward.",
-        bullets: [
-            {
-                title: "Micro-Investing",
-                description: "Begin with as little as $1 and watch your money grow.",
-                icon: <FiDollarSign size={26} />
-            },
-            {
-                title: "Expert Portfolios",
-                description: "Choose from investment strategies tailored to your risk tolerance.",
-                icon: <FiBriefcase size={26} />
-            },
-            {
-                title: "Real-Time Performance",
-                description: "Track your investments with easy-to-understand metrics and visuals.",
-                icon: <FiPieChart size={26} />
-            }
-        ],
-        imageSrc: "/roleradar-landing/images/mockup-2.webp"
-    },
-    {
-        title: "Bank-Grade Security",
-        description: "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
-        bullets: [
-            {
-                title: "Military-Grade Encryption",
-                description: "Your information is safeguarded with the highest level of encryption.",
-                icon: <FiLock size={26} />
-            },
-            {
-                title: "Biometric Authentication",
-                description: "Access your account securely with fingerprint or facial recognition.",
-                icon: <FiUser size={26} />
-            },
-            {
-                title: "Real-Time Fraud Detection",
-                description: "Our system constantly monitors for suspicious activity to keep your money safe.",
-                icon: <FiShield size={26} />
-            }
-        ],
-        imageSrc: "/roleradar-landing/images/mockup-1.webp"
-    },
-]
+  {
+    title: "Automated Job Monitoring",
+    description:
+      "RoleRadar checks your favorite companies on a schedule you set and pulls fresh listings right to your desktop.",
+    bullets: [
+      {
+        title: "Scheduled Scans",
+        description: "Background scanner hits official APIs at the interval you pick.",
+        icon: <FiTrendingUp size={26} />
+      },
+      {
+        title: "Change Tracking",
+        description: "Highlights what is new since the last scan and what you applied to today or this week.",
+        icon: <FiTarget size={26} />
+      },
+      {
+        title: "Powerful Filtering",
+        description: "Slice results by keywords, location, title, date ranges, company and more.",
+        icon: <FiFilter size={26} />
+      }
+    ],
+    imageSrc: "/roleradar-landing/images/mockup-1.png"
+  },
+  {
+    title: "Application Tracking and Insights",
+    description:
+      "All your actions are logged so you always know where every role sits in the pipeline.",
+    bullets: [
+      {
+        title: "Statuses & History",
+        description: "Mark jobs as applied, hidden or archived and view a full activity timeline.",
+        icon: <FiPieChart size={26} />
+      },
+      {
+        title: "Live Stats",
+        description: "Dashboard cards, trend charts and top-company rankings update after each scan.",
+        icon: <FiBarChart2 size={26} />
+      },
+      {
+        title: "PDF & CSV Export",
+        description: "One-click export for sharing, reporting or personal backups.",
+        icon: <FiBriefcase size={26} />
+      }
+    ],
+    imageSrc: "/roleradar-landing/images/mockup-2.png"
+  },
+  {
+    title: "Real-Time Desktop Alerts",
+    description:
+      "Stay in the loop without babysitting the app. RoleRadar pops up native notifications while it works in the tray.",
+    bullets: [
+      {
+        title: "New Job Alerts",
+        description: "Instant push when a posting matches your filters.",
+        icon: <FiBell size={26} />
+      },
+      {
+        title: "Update Reminders",
+        description: "Heads-up when an app update is ready to install.",
+        icon: <FiUser size={26} />
+      },
+      {
+        title: "Error Warnings",
+        description: "Get notified fast if a scan fails or something looks wrong.",
+        icon: <FiShield size={26} />
+      }
+    ],
+    imageSrc: "/roleradar-landing/images/mockup-1.webp"
+  },
+  {
+    title: "Private, Local & Future-Proof",
+    description:
+      "Everything lives on your machine, no accounts or scraping tricks. Your data stays yours.",
+    bullets: [
+      {
+        title: "100 % Local Storage",
+        description: "Lightweight Windows executable with a local SQLite database.",
+        icon: <FiDatabase size={26} />
+      },
+      {
+        title: "Official APIs Only",
+        description: "Pulls listings through supported endpoints for reliability and compliance.",
+        icon: <FiLock size={26} />
+      },
+      {
+        title: "Offline Backups",
+        description: "Create full backups or reset the tracker with two clicks.",
+        icon: <FiCloudOff size={26} />
+      }
+    ],
+    imageSrc: "/roleradar-landing/images/mockup-1.webp"
+  }
+];

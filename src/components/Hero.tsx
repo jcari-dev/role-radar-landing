@@ -39,7 +39,7 @@ const Hero: React.FC = () => {
         <div className="mt-8">
           <Link
             href="/downloads/RoleRadarSetup.exe" // adjust path or MS‑Store link
-            className="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 font-semibold text-white shadow-md transition hover:bg-primary/90 focus:outline-none focus-visible:ring focus-visible:ring-primary/50"
+            className="inline-flex items-center gap-2 rounded-lg bg-secondary px-6 py-3 font-semibold text-white shadow-md transition hover:bg-primary/90 focus:outline-none focus-visible:ring focus-visible:ring-primary/50"
           >
             <svg
               viewBox="0 0 24 24"
