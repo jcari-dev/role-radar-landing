@@ -97,19 +97,12 @@ const Footer: React.FC = () => {
           All rights reserved.
         </p>
         <p className="text-sm mt-2 text-gray-500">
-          Made with &hearts; by{" "}
-          <a href="https://nexilaunch.com" target="_blank">
-            Nexi Launch
-          </a>
+          RoleRadar is not affiliated with any company or platform. All logos,
+          names, and assets mentioned belong to their respective owners.
         </p>
         <p className="text-sm mt-2 text-gray-500">
-          UI kit by{" "}
-          <a
-            href="https://ui8.net/youthmind/products/fintech-finance-mobile-app-ui-kit"
-            target="_blank"
-          >
-            Youthmind
-          </a>
+          Built with care by Jorge Caridad as a personal project to help job
+          seekers.
         </p>
       </div>
     </footer>

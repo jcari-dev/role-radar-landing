@@ -14,24 +14,19 @@ export const footerDetails: {
             url: "#features"
         },
         {
-            text: "Pricing",
-            url: "#pricing"
+            text: "FAQ",
+            url: "#faq"
         },
-        {
-            text: "Testimonials",
-            url: "#testimonials"
-        }
     ],
-    email: 'address@yoursite.com',
-    telephone: '+1 (123) 456-7890',
+    email: 'support@roleradar.net',
     socials: {
-        // github: 'https://github.com',
+        github: 'https://github.com/jcari-dev/roleradar-landing',
         // x: 'https://twitter.com/x',
-        twitter: 'https://twitter.com/Twitter',
-        facebook: 'https://facebook.com',
+        // twitter: 'https://twitter.com/Twitter',
+        // facebook: 'https://facebook.com',
         // youtube: 'https://youtube.com',
-        linkedin: 'https://www.linkedin.com',
+        linkedin: 'https://www.linkedin.com/in/jorge-caridad/',
         // threads: 'https://www.threads.net',
-        instagram: 'https://www.instagram.com',
+        // instagram: 'https://www.instagram.com',
     }
 }
