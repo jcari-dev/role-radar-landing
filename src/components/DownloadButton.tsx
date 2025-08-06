@@ -79,7 +79,7 @@ Thanks!`
                 onClick={() => setOpen(false)}
                 className="rounded-lg border border-foreground/20 px-4 py-2 hover:bg-foreground/5"
               >
-                I'll think about it
+                I&apos;ll think about it
               </button>
             </div>
           </div>
