@@ -12,24 +12,6 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl w-full mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
         <div>
           <Link href="/" className="flex items-center gap-2">
-            {/* <svg
-              viewBox="5 10 85 60"
-              width={36}
-              height={36}
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth={6}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <g transform="rotate(-12 50 50)">
-                <path d="M17 50a33 33 0 0 1 66 0" />
-                <path d="M27 50a23 23 0 0 1 46 0" />
-                <path d="M37 50a13 13 0 0 1 26 0" />
-                <line x1="50" y1="50" x2="88" y2="50" />
-              </g>
-            </svg> */}
 
             <h3 className="manrope text-xl font-semibold cursor-pointer">
               {siteDetails.siteName}
@@ -63,14 +45,6 @@ const Footer: React.FC = () => {
             </a>
           )}
 
-          {footerDetails.telephone && (
-            <a
-              href={`tel:${footerDetails.telephone}`}
-              className="block text-foreground-accent hover:text-foreground"
-            >
-              Phone: {footerDetails.telephone}
-            </a>
-          )}
 
           {footerDetails.socials && (
             <div className="mt-5 flex items-center gap-5 flex-wrap">

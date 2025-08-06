@@ -1,5 +1,5 @@
 export const ctaDetails = {
-  heading: 'Job Search in Minutes',
+  heading: "Built with ❤️ to help job seekers",
   subheading:
-    'Spend minutes, not hours. RoleRadar surfaces fresh openings throughout the day, so you can land your next role while keeping life in balance. Built to help and with ❤️',
+    "I’ve been in the same boat, scrolling endless listings and feeling the stress. RoleRadar checks company job listings for you, surfaces the roles that fit, and lets you spend minutes not hours. Built with love for the community 🚀 Thanks for trying it and sharing feedback.",
 };

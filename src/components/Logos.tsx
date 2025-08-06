@@ -1,13 +1,6 @@
 import React from "react";
 import Image from "next/image";
 
-// Place your SVGs here:
-// public/roleradar-landing/logos/
-//   ├─ greenhouse.svg
-//   ├─ ashby.svg
-//   └─ lever.svg
-// Anything under /public is served from the site root, so these resolve to
-// /roleradar-landing/logos/<file>.svg when deployed on GitHub Pages.
 
 const logos = [
   { name: "Greenhouse", src: "/roleradar-landing/logos/greenhouse.svg" },
@@ -16,7 +9,7 @@ const logos = [
 ] as const;
 
 const Logos: React.FC = () => (
-  <section id="logos" className="py-32 px-5 bg-background">
+    <section id="logos" className="pt-20 pb-32 px-5 bg-background">
     <p className="text-lg font-medium text-center">
       Made possible by the public‑facing API&#39;s from these amazing companies
     </p>

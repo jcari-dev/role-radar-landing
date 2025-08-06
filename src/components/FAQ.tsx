@@ -1,6 +1,10 @@
 "use client";
 import React, { useMemo, useState } from "react";
-import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/react";
+import {
+  Disclosure,
+  DisclosureButton,
+  DisclosurePanel,
+} from "@headlessui/react";
 import { BiMinus, BiPlus } from "react-icons/bi";
 
 import SectionTitle from "./SectionTitle";
@@ -26,8 +30,11 @@ const FAQ: React.FC = () => {
             </h2>
           </SectionTitle>
           <p className="lg:mt-10 text-foreground-accent text-center lg:text-left">
-            Ask me anything!
+            Ask me anything! 
+            <br />
+            No&mdash; seriously. I read every message. ✨
           </p>
+
           <a
             href="mailto:support@roleradar.net"
             className="mt-3 block text-xl lg:text-4xl text-secondary font-semibold hover:underline text-center lg:text-left"
@@ -43,7 +50,9 @@ const FAQ: React.FC = () => {
                 {({ open }) => (
                   <>
                     <DisclosureButton className="flex items-center justify-between w-full px-4 pt-7 text-lg text-left border-t">
-                      <span className="text-2xl font-semibold">{faq.question}</span>
+                      <span className="text-2xl font-semibold">
+                        {faq.question}
+                      </span>
                       {open ? (
                         <BiMinus className="w-5 h-5 text-secondary" />
                       ) : (

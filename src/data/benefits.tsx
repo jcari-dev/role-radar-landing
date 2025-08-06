@@ -11,6 +11,9 @@ import {
   FiTarget,
   FiTrendingUp,
   FiUser,
+  FiMoon, // theme toggle
+  FiHeadphones, // screen reader / audio
+  FiCornerDownRight,
 } from "react-icons/fi";
 
 import { IBenefit } from "@/types";
@@ -40,7 +43,7 @@ export const benefits: IBenefit[] = [
         icon: <FiFilter size={26} />,
       },
     ],
-    imageSrc: "/roleradar-landing/images/mockup-1.png",
+    imageSrc: "/roleradar-landing/images/automated-job-monitoring.webp",
   },
   {
     title: "Application Tracking and Insights",
@@ -66,7 +69,7 @@ export const benefits: IBenefit[] = [
         icon: <FiBriefcase size={26} />,
       },
     ],
-    imageSrc: "/roleradar-landing/images/mockup-2.png",
+    imageSrc: "/roleradar-landing/images/application-tracking-with-insights.webp",
   },
   {
     title: "Real-Time Desktop Alerts",
@@ -90,7 +93,7 @@ export const benefits: IBenefit[] = [
         icon: <FiShield size={26} />,
       },
     ],
-    imageSrc: "/roleradar-landing/images/mockup-1.png",
+    imageSrc: "/roleradar-landing/images/real-time-desktop-alerts.webp",
   },
   {
     title: "Private, Local & Future-Proof",
@@ -116,6 +119,33 @@ export const benefits: IBenefit[] = [
         icon: <FiCloudOff size={26} />,
       },
     ],
-    imageSrc: "/roleradar-landing/images/mockup-1.png",
+    imageSrc: "/roleradar-landing/images/private-local-future-proof.webp",
   },
+{
+  title: "Accessibility First",
+  description:
+    "RoleRadar ships with inclusive features from day one so every job seeker stays in control.",
+  bullets: [
+    {
+      title: "Dark & High Contrast (coming soon)",
+      description:
+        "Use a calm dark theme today and switch to a vivid high-contrast palette in the next release.",
+      icon: <FiMoon size={26} />,
+    },
+    {
+      title: "Screen Reader Ready",
+      description:
+        "Clear labels and landmarks are being tuned to work smoothly with popular assistive tech.",
+      icon: <FiHeadphones size={26} />,
+    },
+    {
+      title: "Keyboard First",
+      description:
+        "Navigate filters and lists, full keyboard support is steadily being implemented!",
+      icon: <FiCornerDownRight size={26} />,
+    },
+  ],
+  imageSrc: "/roleradar-landing/images/accessibility-first.webp",
+}
+
 ];

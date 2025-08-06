@@ -15,10 +15,11 @@ export const faqs: IFAQ[] = [
     answer:
       "This is a personal project built by Jorge Caridad to learn new technologies like Go, and to help with his own job search. It’s free to use, has no monetization, and was made to give others a useful tool. Not to profit from job boards or companies.",
   },
-{
-  question: "What is the intended use?",
-  answer: "This app is meant for your personal job search only. It helps you track postings and manage applications in one place. It’s not for data aggregation, resale, or any commercial use."
-},
+  {
+    question: "What is the intended use?",
+    answer:
+      "This app is meant for your personal job search only. It helps you track postings and manage applications in one place. It’s not for data aggregation, resale, or any commercial use.",
+  },
   {
     question: "Is my data private?",
     answer:
@@ -56,6 +57,26 @@ export const faqs: IFAQ[] = [
     question: "Can I track application status?",
     answer:
       "Yes. Set statuses, hide roles you are not pursuing, and view your activity on the Dashboard.",
+  },
+  {
+    question: "Is the project completed?",
+    answer:
+      "Not yet. RoleRadar is still in an early alpha so features may change quickly.",
+  },
+  {
+    question: "Is RoleRadar safe to install?",
+    answer:
+      "I build releases on a clean machine and scan them before upload, but I am not a security researcher and no software is perfect. Libraries are vetted as the best of my abilities yet new bugs or vulnerabilities can still slip through, especially in an alpha. Install only if you are comfortable, keep backups, and use it at your own risk. If you notice anything strange, please let me know at support@roleradar.net I read everything. After all, If you see something, say something.",
+  },
+{
+  question: "Does RoleRadar come with any warranty?",
+  answer:
+    "No. This is a passion project still in alpha. I do my best, but things can break, data can get lost, and results might be wrong. If you install it you accept those risks and I cannot take responsibility for any damage.",
+},
+  {
+    question: "Is the source code open?",
+    answer:
+      "Not yet. The plan is to open-source once the core feature set is stable. If possible I would like to work long-term on this project!",
   },
   {
     question: "Will I get notifications?",

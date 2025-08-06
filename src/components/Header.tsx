@@ -58,14 +58,7 @@ const Header: React.FC = () => {
                 </Link>
               </li>
             ))}
-            <li>
-              <Link
-                href="#cta"
-                className="text-black bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors"
-              >
-                Download
-              </Link>
-            </li>
+
           </ul>
 
           {/* Mobile Menu Button */}

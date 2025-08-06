@@ -4,7 +4,6 @@ export const footerDetails: {
     subheading: string;
     quickLinks: IMenuItem[];
     email: string;
-    telephone: string;
     socials: ISocials;
 } = {
     subheading: "Empowering job seekers with fast, focused tools to take control of their search.",
