@@ -13,7 +13,7 @@ export const faqs: IFAQ[] = [
   {
     question: "Is this a real product?",
     answer:
-      "This is a personal project built by Jorge Caridad to learn new technologies like Go, and to help with his own job search. It’s free to use, has no monetization, and was made to give others a useful tool. Not to profit from job boards or companies.",
+      "Somewhat, it is my personal project. I built RoleRadar to ease the daily job search for myself and others, and I used the project to learn new tech like Go. It is free to use, not monetized, and exists to help job seekers, not to profit from job boards or companies.",
   },
   {
     question: "What is the intended use?",
@@ -41,7 +41,8 @@ export const faqs: IFAQ[] = [
   },
   {
     question: "How often does it check for new jobs?",
-    answer: "You choose the interval in Settings.",
+    answer:
+      "You choose the interval in Settings. You can choose how often to check: every 4, 6, 8, or 12 hours.",
   },
   {
     question: "Can I filter results?",
@@ -56,23 +57,23 @@ export const faqs: IFAQ[] = [
   {
     question: "Can I track application status?",
     answer:
-      "Yes. Set statuses, hide roles you are not pursuing, and view your activity on the Dashboard.",
+      "Yes. Set statuses, hide roles you are not interested in pursuing, and view your activity on the Dashboard.",
   },
   {
     question: "Is the project completed?",
     answer:
-      "Not yet. RoleRadar is still in an early alpha so features may change quickly.",
+      "Not yet. RoleRadar is still in the early stages, so features may change quickly.",
   },
   {
     question: "Is RoleRadar safe to install?",
     answer:
       "I build releases on a clean machine and scan them before upload, but I am not a security researcher and no software is perfect. Libraries are vetted as the best of my abilities yet new bugs or vulnerabilities can still slip through, especially in an alpha. Install only if you are comfortable, keep backups, and use it at your own risk. If you notice anything strange, please let me know at support@roleradar.net I read everything. After all, If you see something, say something.",
   },
-{
-  question: "Does RoleRadar come with any warranty?",
-  answer:
-    "No. This is a passion project still in alpha. I do my best, but things can break, data can get lost, and results might be wrong. If you install it you accept those risks and I cannot take responsibility for any damage.",
-},
+  {
+    question: "Does RoleRadar come with any warranty?",
+    answer:
+      "No. This is a passion project still the early stages. I do my best, but things can break, data can get lost, and results might be wrong. If you install it you accept those risks and I cannot take responsibility for any damage.",
+  },
   {
     question: "Is the source code open?",
     answer:
